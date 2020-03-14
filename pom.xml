@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>IngAccounts</artifactId>
-	<version>1.0.93</version>
+	<version>1.0.18</version>
 	<name>IngAccounts</name>
 	<description>Demo project for Spring Boot</description>
 
