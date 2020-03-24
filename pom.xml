@@ -83,14 +83,24 @@
 		</dependency>
 	</dependencies>
 	
-        <distributionManagement>
+    <scm>
+		<connection>scm:https://github.com/Deeps333/INGFavBank.git</connection>
+		<url>https://github.com/Deeps333/INGFavBank.git</url>
+                <developerConnection>scm:git:https://github.com/Deeps333/INGFavBank.git</developerConnection>
+		<tag>HEAD</tag>
+		
+</scm>
+
+<distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://13.127.91.122:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+
   <repository>
     <id>nexus-releases</id>
-    <url>http://18.222.110.86:8081/nexus/content/repositories/releases/</url>
+    <url>http://13.127.91.122:8081/nexus/content/repositories/releases/</url>
   </repository>
-</distributionManagement>
-
-
 	<build>
 		<plugins>
 			<plugin>
